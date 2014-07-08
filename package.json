@@ -1,0 +1,35 @@
+{
+  "name": "sportevents_app",
+  "version": "1.0.0",
+  "description": "Web and mobile application to know details and everything about the record and the registration, of people from diferents events, using a individual key",
+  "keywords": [
+    "sportevents",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "minisis",
+    "email": "contacto@minisis.org",
+    "url": "http://minisis.org/"
+  },
+  "homepage": "http://minisis.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minisis/SportEvents"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.5.1",
+    "body-parser": "~1.4.3",
+    "errorhandler": "~1.1.1",
+    "morgan": "~1.1.1"
+  }
+}
