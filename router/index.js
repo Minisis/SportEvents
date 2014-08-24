@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var hello = require('./handlers/hello');
+var venueRouter = require('./venue');
 
-router.get('/hello', hello.onPost); 
+var router = function(app) {
+	app.use(venueRouter);	
+};
 
 module.exports = router;

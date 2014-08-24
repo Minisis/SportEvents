@@ -19,7 +19,7 @@ if (app.get('env') === 'development') {
 	app.use(errorHandler());
 }
 //router
-app.use(router);
+router(app);
 
 var server = http.createServer(app);
 server.listen(port, ip, function() {
