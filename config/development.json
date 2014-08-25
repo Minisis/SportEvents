@@ -1,0 +1,9 @@
+{
+	"mysql" : {
+		"host" : "127.0.0.1",
+		"port" : 48931,
+		"username" : "adminmPbiMnD",
+		"password" : "Qd5trtivj3aL",
+		"database" : "sportevents"
+	}
+}
