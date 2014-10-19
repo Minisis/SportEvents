@@ -1,4 +1,4 @@
-PEOPLEvar personModel = require('./../model/person');
+var personModel = require('./../model/person');
 
 var get = function(req, res) {
 	var key = req.query.key || null;
